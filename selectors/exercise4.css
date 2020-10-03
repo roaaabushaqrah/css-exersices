@@ -1,1 +1,6 @@
-/* this is for you to complete */
+top ul li,ul ul li {color:blue; }
+ul:nth-last-child(1) {list-style-type:none;}
+top li a, ul li a, ul ul li a{color:red;}
+a{color:green;}
+top div p a p a,div p a{color:purple; background: yellow;}
+li:first-child {font-weight:bold;}

@@ -14,18 +14,27 @@
             line-height: 50px; /* align text vertically (this works only for a single line of text) */
             text-align: center;
         }
+         .even { background-color:#0033cc;}
+
+         .odd { background-color:#ff3333;}
+           #id {color:white;}
+          .resize{width:0.7em;}
+          .resize1{width:1.3em;}
+
+
+ 
     </style>
 </head>
 <body>
-<div>1</div>
-<div>2</div>
-<div>3</div>
-<div>4</div>
-<div>5</div>
-<div>6</div>
-<div>7</div>
-<div>8</div>
-<div>9</div>
-<div>10</div>
+<div class="odd resize">1</div>
+<div class="even resize">2</div>
+<div class="odd resize">3</div>
+<div  class="even">4</div>
+<div class="odd">5</div>
+<div  class="even">6</div>
+<div class="odd", id="id">7</div>
+<div  class="even resize1">8</div>
+<div class="odd resize1">9</div>
+<div  class="even resize1">10</div>
 </body>
 </html>
